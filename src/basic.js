@@ -12,6 +12,9 @@ const isEven = function(number){
   This function takes a number and returns true or false
   based on whether the number is odd or not
 */
+const isOdd = function(number){
+  return number%2!=0;
+}
 
 /*
   square
