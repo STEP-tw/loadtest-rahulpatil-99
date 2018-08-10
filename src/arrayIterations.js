@@ -1,12 +1,20 @@
+import {isOdd,isEven} from "./basic";
+
 /*
   selectOdd
   This function selects all the odd numbers from a given list of numbers
 */
+const selectOdd = function(numbers){
+  return numbers.filter((number)=>isOdd(number))
+} 
 
 /*
   selectEven
   This function selects all the even numbers from a given list of numbers
 */
+const selectEven = function(numbers){
+  return numbers.filter((number)=>isEven(number))
+} 
 
 
 /*
