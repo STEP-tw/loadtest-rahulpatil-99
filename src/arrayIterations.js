@@ -21,6 +21,9 @@ const selectEven = function(numbers){
   sumUp
   This function sums up all the numbers of a given list
 */
+const sumUp = function(numbers){
+  return numbers.reduce((num1,num2)=>num1+num2,num1=0)
+}
 
 
 /*
